@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CampusReads - Librarian Login</title>
+
+    <link rel="stylesheet" href="librarian-login.css">
+</head>
+
+<body>
+
+    <div class="login-container">
+
+        <div class="login-card">
+
+            <div class="logo">
+                CampusReads
+            </div>
+
+            <h1>Librarian Login</h1>
+
+            <p class="subtitle">
+                Sign in to manage student book reservations.
+            </p>
+
+            <form id="librarianLoginForm">
+
+                <label for="librarianUsername">
+                    Librarian Username
+                </label>
+
+                <input
+                    type="text"
+                    id="librarianUsername"
+                    placeholder="Enter librarian username"
+                    required
+                >
+
+                <label for="librarianPassword">
+                    Password
+                </label>
+
+                <input
+                    type="password"
+                    id="librarianPassword"
+                    placeholder="Enter password"
+                    required
+                >
+
+                <button type="submit">
+                    Login to Dashboard
+                </button>
+
+            </form>
+
+            <p id="loginMessage"></p>
+
+            <a href="index.html" class="back-link">
+                ← Back to Student Portal
+            </a>
+
+        </div>
+
+    </div>
+
+    <script src="librarian-login.js"></script>
+
+</body>
+
+</html>

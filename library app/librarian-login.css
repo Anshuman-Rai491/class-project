@@ -1,0 +1,171 @@
+
+/* =================================
+   1. GENERAL SETTINGS
+================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #dbeafe, #eff6ff);
+}
+
+
+/* =================================
+   2. LOGIN CONTAINER
+================================= */
+
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+/* =================================
+   3. LOGIN CARD
+================================= */
+
+.login-card {
+    width: 100%;
+    max-width: 430px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.10);
+}
+
+
+/* =================================
+   4. LOGO
+================================= */
+
+.logo {
+    text-align: center;
+    color: #2563eb;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+
+/* =================================
+   5. LOGIN HEADING
+================================= */
+
+.login-card h1 {
+    text-align: center;
+    color: #1e3a8a;
+    font-size: 26px;
+    margin-bottom: 12px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+
+/* =================================
+   6. INPUT FIELDS
+================================= */
+
+.login-card label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.login-card input {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.login-card input:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+
+/* =================================
+   7. LOGIN BUTTON
+================================= */
+
+.login-card button {
+    width: 100%;
+    padding: 13px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.login-card button:hover {
+    background-color: #1d4ed8;
+}
+
+
+/* =================================
+   8. LOGIN MESSAGE
+================================= */
+
+#loginMessage {
+    text-align: center;
+    color: #dc2626;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+
+/* =================================
+   9. BACK LINK
+================================= */
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    color: #2563eb;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+
+/* =================================
+   10. MOBILE RESPONSIVE
+================================= */
+
+@media (max-width: 500px) {
+
+    .login-card {
+        padding: 28px 22px;
+    }
+
+    .login-card h1 {
+        font-size: 23px;
+    }
+
+}
